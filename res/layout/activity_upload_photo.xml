@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <!-- select photo, preview photo, upload photo -->
+
+
+    <!-- change from RelativeLayout to ScrollView -->
+    <!-- add LinearLayout inside ScollView -->
+    <!-- add widgets -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/hello_world"
+            android:textSize="18sp" />
+
+        <!-- Button take photo from camera -->
+
+            <!-- Button select photo from gallery -->
+
+            <Button
+                android:id="@+id/bSelectPhoto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="loadImagefromGallery"
+                android:text="@string/bSelectPhoto" />
+
+            <!-- Button upload the image taken -->
+
+            <Button
+                android:id="@+id/bUploadImage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="uploadImage"
+                android:text="@string/bUploadImage" />
+
+
+        <!-- ImageView display image taken -->
+
+        <ImageView
+            android:id="@+id/ivImageToUpload"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/ivImageToUpload"
+            android:src="@drawable/ic_launcher" />
+
+        <!-- EditText name the image taken -->
+
+        <TextView
+            android:id="@+id/tvUploadImageName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:hint="@string/tvUploadImageName" />
+    </LinearLayout>
+
+</ScrollView>

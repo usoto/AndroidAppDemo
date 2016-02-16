@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">github-android</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Apps Demos</string>
+    <string name="hello">Android Apps Demos!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="hello_world">Hello, Demos!</string>
+    <string name="bTakePhoto2Upload">Capture Photo and Upload</string>
+    <string name="bSelectPhoto2Upload">Select from Gallery and Upload</string>
+    <string name="bTakePhoto">Take Photo</string>
+    <string name="bSelectPhoto">Select Photo</string>
+    <string name="bGallery">From Gallery</string>
+    <string name="bCamera">Camera</string>
+    <string name="ivImageToUpload">Image To Upload</string>
+    <string name="tvUploadImageName">image name</string>
+    <string name="bUploadImage">UPLOAD</string>
+    
 </resources>
